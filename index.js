@@ -16,7 +16,6 @@ function winstall (root, opts, done) {
   assert.equal(typeof opts, 'object', 'winstall: opts should be type object')
   assert.equal(typeof done, 'function', 'winstall: done should be type function')
 
-  console.log(root)
   var b = browserify(root)
     .transform(installify, opts)
     .bundle()

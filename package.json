@@ -1,0 +1,31 @@
+{
+  "name": "winstall",
+  "description": "Install all dependencies required by a project",
+  "repository": "yoshuawuyts/winstall",
+  "version": "1.0.0",
+  "bin": {
+    "winstall": "bin.js"
+  },
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "installify": "^1.1.0",
+    "minimist": "^1.2.0",
+    "pump": "^1.0.2"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "intall",
+    "npm",
+    "all"
+  ],
+  "license": "MIT"
+}

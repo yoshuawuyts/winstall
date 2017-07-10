@@ -2,7 +2,7 @@
   "name": "winstall",
   "description": "Install all dependencies required by a project",
   "repository": "yoshuawuyts/winstall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "winstall": "bin.js"
   },

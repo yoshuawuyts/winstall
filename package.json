@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "browserify": "^14.4.0",
-    "installify": "^1.1.0",
+    "installify": "yoshuawuyts/installify#update-detective",
     "minimist": "^1.2.0",
     "pump": "^1.0.2"
   },
